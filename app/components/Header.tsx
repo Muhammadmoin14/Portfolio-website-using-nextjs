@@ -8,9 +8,9 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (    
-    <div className='bg-gradient-to-tl from-main to-secondmain z-20 mx-auto flex justify-between items-center px-16 py-6 fixed w-full '>
+    <div className='bg-gradient-to-tl from-main to-secondmain z-20 mx-auto flex justify-between items-center px-16 py-6 fixed sm:w-screen '>
           <Link href='\' >
-          <h1 className='text-2xl font-bold text-white hover:text-yellow-500'>Portfolio</h1>    
+          <h1 className='text-2xl font-bold text-white hover:text-yellow-500 '>Portfolio</h1>    
           </Link>
 
           <div className="md:hidden">

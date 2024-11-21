@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -18,6 +19,11 @@ const config: Config = {
         Inter:["Inter" ,"serif"],
         Poppins:["Poppins" , "sans-serif"],
         jetbrainsmono:["JetBrains_Mono" , "monospace"]
+      },
+      screens:{
+        'sm':'300px',
+        'md':'768px',
+        
       },
     },
   },
